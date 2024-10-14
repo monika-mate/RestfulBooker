@@ -1,4 +1,4 @@
-package com.restfulbooker.payloads;
+package com.restfulbooker.payloads.Request;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

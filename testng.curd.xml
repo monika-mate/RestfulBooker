@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/monik/IdeaProjects/RestfulBooker">
         <classes>
-            <class name="com.restfulbooker.misc.testfile">
+            <class name="com.restfulbooker.curd.TC_CreateBooking">
                 <methods>
                     <include name="curd"/>
                 </methods>
