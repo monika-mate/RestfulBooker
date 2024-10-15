@@ -3,9 +3,9 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/monik/IdeaProjects/RestfulBooker">
         <classes>
-            <class name="com.restfulbooker.curd.TC_CreateBooking">
+            <class name="com.restfulbooker.curd.TC_Integration">
                 <methods>
-                    <include name="curd"/>
+                    <include name="po"/>
                 </methods>
             </class>
         </classes>

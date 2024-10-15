@@ -1,10 +1,9 @@
-package com.restfulbooker.curd;
+package com.restfulbooker.Test;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.restfulbooker.base.BaseTest;
 import com.restfulbooker.endpoints.ApiConstant;
 import com.restfulbooker.payloads.BookingResponse;
-import com.restfulbooker.utils.YmalReader;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Severity;
@@ -25,7 +24,7 @@ public class TC_CreateBooking extends BaseTest {
         validatableResponse = response.then().log().all();
         validatableResponse.statusCode(200);
         BookingResponse bookingResponse = payloadManager.JsonToObj(response.asString());
-        //assertThat(bookingResponse.getBookingid()).isNotNull();
+        assertThat(bookingResponse.getBookingid()).isNotNull();
         System.out.println("Booking_ID = " + bookingResponse.getBookingid());
     }
 
